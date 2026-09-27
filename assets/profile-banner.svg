@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Jonghyeon Lee — Robotics and Embedded Software</title>
+  <desc id="desc">Navy banner with an orange robot navigation path. Perception, control, motion.</desc>
+  <rect width="1200" height="260" rx="12" fill="#142a3a"/>
+  <path d="M820 0V260M900 0V260M980 0V260M1060 0V260M1140 0V260M760 50H1200M760 130H1200M760 210H1200" stroke="#263e50" stroke-width="1"/>
+  <rect x="52" y="50" width="38" height="4" rx="2" fill="#ed946e"/>
+  <text x="52" y="93" fill="#b8cbd8" font-family="Arial, sans-serif" font-size="14" letter-spacing="4">JONGHYEON LEE</text>
+  <text x="50" y="150" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1">Robotics &amp; Embedded Software</text>
+  <text x="53" y="197" fill="#c1d0da" font-family="Arial, sans-serif" font-size="17" letter-spacing="2">PERCEPTION / CONTROL / MOTION</text>
+  <path d="M850 210H900V130H1060V50H1140" stroke="#ed946e" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <circle cx="850" cy="210" r="6" fill="#ed946e"/>
+  <circle cx="1060" cy="130" r="7" fill="#142a3a" stroke="#ed946e" stroke-width="3"/>
+  <rect x="1128" y="38" width="24" height="24" rx="5" fill="#ed946e"/>
+  <path d="M1136 50H1144M1140 46V54" stroke="#142a3a" stroke-width="2"/>
+</svg>
