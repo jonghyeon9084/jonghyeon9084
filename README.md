@@ -42,5 +42,6 @@ ROS 2·Nav2 기반 이동로봇 주행, STM32 센서·모터 제어, Raspberry P
 
 ---
 
-**Contact** · [jonghyeon9084@gmail.com](mailto:jonghyeon9084@gmail.com)  
-프로젝트 구성, 담당 역할, 시연 자료는 **[포트폴리오](https://jonghyeon9084.github.io/)**에서 확인하실 수 있습니다.
+**Contact** · [jonghyeon9084@gmail.com](mailto:jonghyeon9084@gmail.com)
+
+프로젝트 구성, 담당 역할, 시연 자료는 [포트폴리오](https://jonghyeon9084.github.io/)에서 확인하실 수 있습니다.
