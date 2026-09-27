@@ -12,6 +12,7 @@ ROS 2·Nav2 기반 이동로봇 주행, STM32 센서·모터 제어, Raspberry P
 
 운반로봇 **2대**와 지게차 **1대**를 활용하는 공장 물류 자동화 프로젝트에서 **자율주행·정밀 도킹·상하차 연동**을 담당하고 있습니다.
 
+- **실행 구조:** 호스트 PC에서 Nav2·위치추정 실행, 로봇 내부에서 센서·모터 및 독립 도킹 제어
 - **구현:** ArUco 마커 정렬 → 저속 직진 → IR 센서의 검정 테이프 감지 → 실제 정지 확인으로 이어지는 독립 도킹
 - **확인:** burger2 실물 도킹 동작 성공. 마커 검출과 IR 제어를 로봇 내부에서 수행
 - **진행:** Nav2 도착 후 도킹 자동 연동, 전체 공정 통합 및 반복 정밀도 측정
@@ -24,7 +25,7 @@ ROS 2·Nav2 기반 이동로봇 주행, STM32 센서·모터 제어, Raspberry P
 | :--- | :--- | :--- |
 | **VisionPoseCoach · POCO** | 얼굴 특징 추출, GRU·TFLite 졸음 모델 개발. 2차에서 EOG 기반 데이터 고도화·모니터암 수평 제어 담당. **제24회 임베디드SW경진대회 결선 진출** | [1차](https://jonghyeon9084.github.io/#ai-one) · [2차](https://jonghyeon9084.github.io/#ai-two) |
 | **STM32 물품 회수·운반 로봇** | 차량 하드웨어, MPU6050 보정·필터링, 상대 Yaw 기반 PID 직진·후진 제어 공동 개발 | [정리](https://jonghyeon9084.github.io/#stm) · [팀 코드](https://github.com/sditr0414/mobile-retrieval-robot) |
-| **PLC 식품 분류·창고 관리** | Ladder 시퀀스·HMI 공동 개발. 복귀 위치·병렬 동작 최적화로 총 동작 시간 **173.3 → 152.8초 (11.8% 단축)** | [정리](https://jonghyeon9084.github.io/#plc) |
+| **PLC 식품 분류·창고 관리** | Ladder 시퀀스·HMI 공동 개발. 복귀 위치·병렬 동작 최적화로 총 동작 시간 **173.3 → 152.8초 (11.8% 단축)** | [정리](https://jonghyeon9084.github.io/#plc) · [코드](https://github.com/jonghyeon9084/plc_project) |
 
 **POCO 코드:** [1차](https://github.com/jonghyeon9084/VisionPoseCoach-POCO-) · [2차 팀 저장소](https://github.com/HONEYDEV0310/2026ESWContest_free_POCO)
 
